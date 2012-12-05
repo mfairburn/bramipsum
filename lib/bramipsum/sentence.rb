@@ -6,11 +6,5 @@ module Bramipsum
     def self.sentences(n=5)
       self.processed_source.sample(n)
     end
-    def self.paragraph
-      self.sentences(5).join(" ")
-    end
-    def self.html_paragraph
-      "<p>" << self.paragraph << "</p>"
-    end
   end
 end

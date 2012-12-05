@@ -10,11 +10,4 @@ describe Bramipsum::Sentence do
   it "must return the specified number of sentences" do
     subject.sentences(10).size.must_equal(10)
   end
-  it "must return a paragraph" do
-    subject.paragraph.must_be_instance_of(String)
-  end
-  it "must return a html paragraph" do
-    subject.html_paragraph.must_be_instance_of(String)
-  end
-
 end
