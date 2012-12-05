@@ -11,7 +11,7 @@ module Bramipsum
     private
 
     def self.read
-      File.read(File.expand_path('book/dracula.txt'))
+      File.read(File.dirname(__FILE__) + "/../../book/dracula.txt")
     end
   end
 end
