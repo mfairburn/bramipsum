@@ -4,7 +4,7 @@ require File.expand_path('../lib/bramipsum/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name          = "bramipsum"
-  gem.version       = Bramipsum::BRAMIPSUM_VERSION
+  gem.version       = Bramipsum::VERSION
   gem.authors       = ["Mark Fairburn"]
   gem.email         = ["mark@praxitar.com"]
   gem.description   = %q{Generate random strings from Dracula text}
